@@ -30,7 +30,7 @@ var sizepers                  = 50         ,
 	
 	
 	
-	start.onload = drawImageActualSize;
+	//start.onload = drawImageActualSize;
 music.src   ="audio/music.mp3";
 выстрел.src ="audio/выстрел.mp3";
 назад.src = "img/назад.png";
@@ -49,10 +49,13 @@ var  times = 1000;
 
 //window.onload = function(){
 	
-	
+//if(start.onload == false){
+	//console.log("норм");
+//}
 //}
 
 //start.onload;
+window.onload  = function (){
 function Main (){
 	 
 	ctx.drawImage(fon ,0,0,950,450);
@@ -122,6 +125,7 @@ if(сцена ==2){
 }
 //music.play();
 }
+}
 setInterval(Main,1000);
 //music.play();
 
@@ -152,9 +156,7 @@ function spawn (){
 }
 
 
-can.addEventListener('mouseover', function (e) {
-	//music.play();
-});
+
 
 can.addEventListener('mouseup', function (e) {
     var x = e.pageX - e.target.offsetLeft,
@@ -216,6 +218,7 @@ can.addEventListener('mouseup', function (e) {
 				}
 			
 				if(ran != 1 || ran != 0 ){
+					
 				score++;
 				clicktime++;
 				if(clicktime == 5){
