@@ -55,9 +55,9 @@ var  times = 1000;
 //}
 
 //start.onload;
-window.onload  = function (){
+
 function Main (){
-	 
+	 window.onload  = function (){
 	ctx.drawImage(fon ,0,0,950,450);
 	ctx.fillStyle = "#000";
      ctx.font = "14px Arial";
