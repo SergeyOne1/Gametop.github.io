@@ -1,4 +1,4 @@
-var can = document.getElementById("canvas");
+var can = document.getElementById("canvas").onload;
 var ctx = can.getContext("2d");
 var start                     = new Image(),
     legko                     = new Image(),
