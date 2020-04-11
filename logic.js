@@ -5,11 +5,11 @@ var menu                      = new Image(),
 	вишня                     = new Image(),
 	bomb                      = new Image(),
 	help                      = new Image(),
-	назад                     = new Image(),
+	back                      = new Image(),
 	start                     = new Image(),
     legko                     = new Image(),
-    sredne                    = new Image(),
-    slozno                    = new Image(),
+    medium                    = new Image(),
+    difficult                 = new Image(),
     pers                      = new Image(),
     fon                       = new Image();
 var выстрел                   = new Audio(),
@@ -34,13 +34,13 @@ var sizepers                  = 50         ,
 	//start.onload = drawImageActualSize;
 music.src   ="audio/music.mp3";
 выстрел.src ="audio/выстрел.mp3";
-назад.src = "img/назад.png";
+back.src = "img/back.png";
 help.src = "img/help.png";
 bomb.src   ="img/bomb.png";
 menu.src   ="img/menu.png";
 legko.src  ="img/legko.png";
-sredne.src ="img/Средне.png";
-slozno.src ="img/Сложно.png";
+medium.src ="img/medium.png";
+difficult.src ="img/difficult.png";
 start.src  ="img/start.png";
 fon.src    ="img/fon.png";
 вишня.src  ="img/вишня.png";
@@ -77,12 +77,12 @@ function Main (){
 	}
 	if(idbut == 1){
 		window.onload =  function(){
-	ctx.drawImage(sredne, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
+	ctx.drawImage(medium, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
 		}
 	}
 	if(idbut == 2){
 		window.onload =  function(){
-	ctx.drawImage(slozno, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
+	ctx.drawImage(difficult, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
 		}
 	}
 	window.onload =  function(){
@@ -132,7 +132,7 @@ if(сцена ==2){
 	ctx.drawImage(bomb ,25,175,sizepers,sizepers);
 	ctx.fillText( "При клике на этот объект вам дают +5 секунд" , 80, 200);
 	ctx.fillText( "Вам дают как минимум 60 секунд чтобы вы как можно больше набрать очком пока время не закончилось" , 25, 300);
-	ctx.drawImage(назад ,Wbut,HbutНазад,sizebutW,sizebutH);
+	ctx.drawImage(back ,Wbut,HbutНазад,sizebutW,sizebutH);
 }
 
 }
