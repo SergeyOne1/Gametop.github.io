@@ -27,6 +27,10 @@ var sizepers                  = 50         ,
 	dostarta                  = 5          ,
 	clicktime                 = 0          ,
 	time                      = 0          ;
+	
+	
+	
+	start.onload = drawImageActualSize;
 music.src   ="audio/music.mp3";
 выстрел.src ="audio/выстрел.mp3";
 назад.src = "img/назад.png";
@@ -48,7 +52,7 @@ var  times = 1000;
 	
 //}
 
-start.onload;
+//start.onload;
 function Main (){
 	 
 	ctx.drawImage(fon ,0,0,950,450);
