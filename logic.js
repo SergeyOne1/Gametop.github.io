@@ -1,16 +1,18 @@
 /////////////
 var can = document.getElementById("canvas");
 var ctx = can.getContext("2d");
-var menu                      = new Image(),
+var
+ pers                      = new Image(),
+ menu                      = new Image(),
+ bomb                      = new Image(),
 	вишня                     = new Image(),
-	bomb                      = new Image(),
+	
 	help                      = new Image(),
 	back                      = new Image(),
-	start                     = new Image(),
+	starts                     = new Image(),
     legko                     = new Image(),
     medium                    = new Image(),
     difficult                 = new Image(),
-    pers                      = new Image(),
     fon                       = new Image();
 var выстрел                   = new Audio(),
     music                     = new Audio();
@@ -41,7 +43,7 @@ menu.src   ="img/menu.png";
 legko.src  ="img/legko.png";
 medium.src ="img/medium.png";
 difficult.src ="img/difficult.png";
-start.src  ="img/start.png";
+starts.src  ="img/start.png";
 fon.src    ="img/fon.png";
 вишня.src  ="img/вишня.png";
 pers.src   ="img/персонаж.png";
@@ -67,7 +69,7 @@ function Main (){
 	if(сцена== 0){
 	//ctx.beginPath();
 	window.onload =  function(){
-	ctx.drawImage(start,Wbut ,HbutStart, sizebutW, sizebutH);
+	ctx.drawImage(starts,Wbut ,HbutStart, sizebutW, sizebutH);
 	}
 	//ctx.stroke();
 	if(idbut == 0){
