@@ -55,7 +55,9 @@ function Main (){
      ctx.font = "14px Arial";
 	 ctx.fillText("V 1.0"  , 900, 430);
 	if(сцена== 0){
+		ctx.beginPath();
 	ctx.drawImage(start,Wbut ,HbutStart, sizebutW, sizebutH);
+	ctx.stroke();
 	if(idbut == 0){
 	ctx.drawImage(legko, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
 	}
@@ -115,7 +117,7 @@ if(сцена ==2){
 }
 //music.play();
 }
-setInterval(Main,1000/60);
+setInterval(Main,1000);
 //music.play();
 
 
