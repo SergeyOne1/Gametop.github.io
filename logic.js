@@ -48,6 +48,7 @@ var  times = 1000;
 	
 //}
 
+start.onload;
 function Main (){
 	 
 	ctx.drawImage(fon ,0,0,950,450);
@@ -55,9 +56,9 @@ function Main (){
      ctx.font = "14px Arial";
 	 ctx.fillText("V 1.0"  , 900, 430);
 	if(сцена== 0){
-		ctx.beginPath();
+	//ctx.beginPath();
 	ctx.drawImage(start,Wbut ,HbutStart, sizebutW, sizebutH);
-	ctx.stroke();
+	//ctx.stroke();
 	if(idbut == 0){
 	ctx.drawImage(legko, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
 	}
