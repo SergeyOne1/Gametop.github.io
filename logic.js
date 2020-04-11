@@ -1,3 +1,4 @@
+window.onload = function(){
 var can = document.getElementById("canvas").onload;
 var ctx = can.getContext("2d");
 var start                     = new Image(),
@@ -44,6 +45,7 @@ start.src  ="img/start.png";
 fon.src    ="img/fon.png";
 вишня.src  ="img/вишня.png";
 pers.src   ="img/персонаж.png";
+}
 var  times = 1000;
 //music = onload;
 
