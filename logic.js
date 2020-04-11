@@ -125,8 +125,9 @@ if(сцена ==2){
 }
 //music.play();
 }
-}
 setInterval(Main,1000);
+}
+
 //music.play();
 
 
