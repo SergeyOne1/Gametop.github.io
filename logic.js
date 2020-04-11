@@ -137,7 +137,7 @@ if(сцена ==2){
 
 }
 window.onload =  function(){
-setInterval(Main,1000);
+setInterval(Main,1000/60);
 }
 
 
