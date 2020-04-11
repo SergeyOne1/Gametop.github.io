@@ -1,16 +1,16 @@
 
 var can = document.getElementById("canvas");
 var ctx = can.getContext("2d");
-var start                     = new Image(),
-    legko                     = new Image(),
-    sredne                    = new Image(),
-    slozno                    = new Image(),
-    pers                      = new Image(),
-	menu                      = new Image(),
+var menu                      = new Image(),
 	вишня                     = new Image(),
 	bomb                      = new Image(),
 	help                      = new Image(),
 	назад                     = new Image(),
+	start                     = new Image(),
+    legko                     = new Image(),
+    sredne                    = new Image(),
+    slozno                    = new Image(),
+    pers                      = new Image(),
     fon                       = new Image();
 var выстрел                   = new Audio(),
     music                     = new Audio();
