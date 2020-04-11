@@ -24,7 +24,7 @@ var sizepers                  = 50         ,
 	Hbuthelp                  = 300        ,
 	HbutНазад                 = 350        ,
 	idbut                     = 0          ,
-	сцена                     = 0          ,
+	сцена                     = 3          ,
 	dostarta                  = 5          ,
 	clicktime                 = 0          ,
 	time                      = 0          ;
@@ -271,6 +271,10 @@ can.addEventListener('mouseup', function (e) {
 			сцена=0;
 			}
 		}
+		}
+		if(сцена== 3){
+			сцена = 0;
+			
 		}
 });
 
