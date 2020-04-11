@@ -66,19 +66,28 @@ function Main (){
 	 ctx.fillText("V 1.0"  , 900, 430);
 	if(сцена== 0){
 	//ctx.beginPath();
+	window.onload =  function(){
 	ctx.drawImage(start,Wbut ,HbutStart, sizebutW, sizebutH);
+	}
 	//ctx.stroke();
 	if(idbut == 0){
+		window.onload =  function(){
 	ctx.drawImage(legko, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
+		}
 	}
 	if(idbut == 1){
+		window.onload =  function(){
 	ctx.drawImage(sredne, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
+		}
 	}
 	if(idbut == 2){
+		window.onload =  function(){
 	ctx.drawImage(slozno, Wbut ,HbutSlohnosti, sizebutW, sizebutH);
+		}
 	}
+	window.onload =  function(){
 	ctx.drawImage(help, Wbut ,Hbuthelp, sizebutW, sizebutH);
-
+	}
 	}
 	if(сцена== 1){
 		
