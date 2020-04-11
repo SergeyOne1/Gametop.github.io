@@ -123,12 +123,12 @@ if(сцена ==2){
 	ctx.fillText( "Вам дают как минимум 60 секунд чтобы вы как можно больше набрать очком пока время не закончилось" , 25, 300);
 	ctx.drawImage(назад ,Wbut,HbutНазад,sizebutW,sizebutH);
 }
-//music.play();
+
 }
 setInterval(Main,1000);
 }
 
-//music.play();
+
 
 
 function таймер() {
@@ -260,97 +260,6 @@ can.addEventListener('mouseup', function (e) {
 		}
 		}
 });
-
-
-
-
-//music.play();
-//requestAnimationFrame(средне);
-/*
-setInterval( function logic(){
-	
-width= -100;
-height= -100;
-time++;
-
-if(time <=60){
-	ctx.drawImage(fon ,0,0,950,450);
-    ctx.drawImage(start ,400,20,250,50);
-var   width = Math.floor(Math.random()* (750 -1 +1));
-var   height = Math.floor(Math.random()* (400 -1 +1));
- ctx.fillStyle = "#000";
- ctx.font = "20px Arial";
- ctx.drawImage(pers ,width,height,size,size);
- ctx.fillText("Счет: " + score, 800, 20);
- ctx.fillText("Время: " + time, 800, 50);
- setInterval( posTop , 1000);
-}
-if(time >= 61){
-var restart = confirm("Время вышло хотите начать заново");
-this.clearInterval();
-if(restart == true){
-	
-	time = 0;
-	score = 0;
-	this.setInterval(1000);
-}
-//if(restart == false){
-//	window.close();
-//}
-}
-
-
-
-
-
-
- 
-can.addEventListener('mouseup', function (e) {
-    var x = e.pageX - e.target.offsetLeft,
-        y = e.pageY - e.target.offsetTop;
-		//console.log("Позиция клика мыши X:",x,"Позиция клика мыши Y:",y);	
-		if(x >=width && y >= height){
-			//width;
-			//height;
-			resultX = width + size +  50;
-			resultY = height + size + 50;
-			if(resultX>= x && resultY >= y){
-				width= -100;
-				height= -100;
-				score++;
-			}
-			
-		}
-		
-	
-});
- function posTop(){
-width= -100;
-height= -100;
-}
-},1000);*/
-
- 
- 
-
-
-/*setInterval(function (){
-	
-	var width = Math.floor(Math.random()* (750 -1 +1));
-	var height = Math.floor(Math.random()* (400 -1 +1));
-	
-	ctx.drawImage(pers ,width,height,50,50);
-
-	
-	},1000);*/
-	
-	
-	
-	
-	
-	
-	
-
 
 
 
