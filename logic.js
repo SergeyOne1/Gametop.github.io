@@ -1,4 +1,4 @@
-window.onload = function(){
+
 var can = document.getElementById("canvas").onload;
 var ctx = can.getContext("2d");
 var start                     = new Image(),
@@ -45,7 +45,7 @@ start.src  ="img/start.png";
 fon.src    ="img/fon.png";
 вишня.src  ="img/вишня.png";
 pers.src   ="img/персонаж.png";
-}
+
 var  times = 1000;
 //music = onload;
 
@@ -59,7 +59,7 @@ var  times = 1000;
 //start.onload;
 
 function Main (){
-	 window.onload  = function (){
+
 	ctx.drawImage(fon ,0,0,950,450);
 	ctx.fillStyle = "#000";
      ctx.font = "14px Arial";
@@ -127,8 +127,10 @@ if(сцена ==2){
 }
 
 }
+window.onload =  function(){
 setInterval(Main,1000);
 }
+
 
 
 
